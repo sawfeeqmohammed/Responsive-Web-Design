@@ -1,0 +1,90 @@
+#main{
+    background-image: url("saganbg.jpg");
+    background-size: contain;
+    padding:20px 20px 20px 20px ;
+    font-size: 20px;
+    font-family:Lato;
+    }
+.sub{
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#title{
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    margin-top: 50px ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#image{
+    width: 200px;
+    max-width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+  }
+    
+img:hover{
+    transform:scale(1.1);
+    }
+p{
+    text-align: justify;
+    color:#fff;
+    }
+
+#img-div{
+    
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+  
+    }
+#img-caption{ 
+    font-weight: bold;
+    font-family: Georgia;
+    color: rgb(59, 154, 199);
+}
+#tribute-link{
+    font-family:monospace;
+}
+
+.list{
+    color: white;
+}
+.quotes{
+    font-size: 20px;
+    font-family:Marck Script;
+    margin-left: 50px;
+    margin-right: 50px;
+     font-style: italic;
+
+}
+#credit{
+    color: turquoise;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+}
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+footer{
+    color: rgb(91, 179, 170);
+    font-size: 1.5rem;
+}
+#tribute-link:hover{
+    color: royalblue;
+    
+    }

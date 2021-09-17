@@ -1,0 +1,187 @@
+body{
+    background-image: linear-gradient(155deg,#05DFD7,green);
+    background-size: cover;
+   
+    font-family:monospace;
+}
+
+#title{
+    color: white;
+    font-family:cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -20px;
+
+}
+#description{
+    font-style: italic;
+    text-align: center;
+    color: rgb(235, 235, 235);
+
+
+}
+form {
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+  }
+  
+  @media (min-width: 480px) {
+    form {
+      padding: 2.5rem;
+    }
+  }
+  
+#survey-form{
+   font-family: Roboto Mono;
+   height: auto;
+   margin-left: 25%;
+   margin-right: 25%;
+   border-style:double;
+   box-shadow: 3px 5px 6px #383736;
+
+    
+    padding: 20px;
+    background-image: linear-gradient(35deg,#ccffff,
+    #ffcccc);
+    border-radius:10px;
+
+}
+#name-label{
+   
+    font-size: 20px;
+    color:   #383736;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+#name{
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+
+}
+#email-label{
+    font-size: 100%;
+    
+    color:  #383736;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+#email{
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    
+}
+#age-label{
+    font-size: 20px;
+    color:   #383736;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+#number{
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    
+}
+#date-label{
+    font-size: 20px;
+    color:  #383736;
+    font-weight: 200;
+    font-size: 20px;
+}
+#date{
+    background: none;
+    
+}
+#dropdown-label{
+    font-size: 20px;
+    color:   #383736;
+    font-weight: 200;
+    font-size: 20px;
+}
+#dropdown{
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    
+    
+
+}
+#language-label{
+    font-size: 20px;
+    color:  #383736;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+#comments-label{
+    font-size: 20px;
+    color:  #383736;
+    font-weight: 200;
+    font-size: 20px;
+    
+    
+}
+#comments{
+    
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    background: none;
+
+}
+#submit {
+   
+    display:block;
+    height: 45px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+   letter-spacing: 2px;
+    color: #383736;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: none;
+   }
+  
+  #submit:hover {
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  
+  #submit:before {
+    content: "";
+    position: absolute;
+    background: #383736;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    
+  }
+  
+ #submit:hover:before {
+    top: 0;
+  }
+  
+  
+
+  

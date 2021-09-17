@@ -1,0 +1,79 @@
+<script>https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js</script>
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="C:\Users\Asus\OneDrive\Documents\project\html\Survey form\surveyform.css">
+        </head>
+        <body>
+           
+
+    <div >
+        <h1 id ="title">Survey Form </h1>
+        <h3 id="description">Thank you for taking the time to fill the form</h3>
+
+    
+    <div>
+        <form id="survey-form" action="">
+        <label for="name" id="name-label" >Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name.." required></input><br><br>
+        
+        <label for="email" id="email-label">E-mail ID:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Your EmailID.. " required></input><br><br>
+       
+        <label for="age" id="age-label">Age:</label><br>
+        <input type="number" id="number" name="age" placeholder="Age.." min="18" max="45" required></input><br><br>
+
+        <label for="gender"id="gender-label" >Gender:</label><br>
+        <input type="radio" id="radio1" name="radio" value="male">
+        <label for="radio1" >Male</label><br>
+        <input type="radio" id="radio2" name="radio" value="female">
+        <label for="radio2" >Female</label><br><br>
+        
+        <labe for="date" id="date-label">Date of Avalability:</label><br>
+        <input type="date" id="date" name="date" required></input><br><br>
+       
+       
+        <label for="dropdown" id="dropdown-label"> Qualification:</label><br>
+       <select name="dropdown" id="dropdown" >
+            <option value="B.E">B.E</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.E">M.E</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="Others">Others</option>
+        </select><br><br>
+        
+        <label for="language"id="language-label">Languages known:</label><br>
+        <input type="checkbox" id="java" name="java" value="Java">
+        <label for="java">Java</label><br>
+        <input type="checkbox" id="c++" name="c++" value="C++">
+        <label for="c++">C++</label><br>
+        <input type="checkbox" id="objc" name="objc" value="Objective C">
+        <label for="objc">Objective C</label><br>
+        <input type="checkbox" id="mysql" name="mysql" value="MySQL">
+        <label for="mysql">MySQL</label><br>
+        <input type="checkbox" id="python" name="python" value="Python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        
+        
+        <label for="comments" id="comments-label" >Pleas provide us feedbacks  tp improve form:</label><br>
+        <textarea type="text" id="comments" name="comments" placeholder="Enter here your feedbacks..." ></textarea><br><br>
+        <input type="submit" value="Submit" id="submit"> 
+
+            </form></div>
+        
+        
+        </div>
+  
+
+    
+    </body>
+
+</html>

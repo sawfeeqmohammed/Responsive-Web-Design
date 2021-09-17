@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yomogi&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+
+body{
+    background-image: linear-gradient(90deg,rgb(43, 191, 228),rgb(234, 236, 198));
+    font-family:Source Code Pro;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+     width: 100%;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    transition:0.6s;
+    padding: 40px 100px;
+    z-index: 10000;
+    background-image: linear-gradient(45deg,rgba(67, 206, 162,0.7),rgba(24, 90, 157,0.7));
+    
+     
+}
+header #header-img{
+    position: relative;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    
+}
+header ul{
+    position:relative;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+nav li{
+    display: inline-block;
+
+    
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    }
+header ul li a{
+    display: block;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-weight:100%;
+    transition: 0.6s;
+
+}
+
+nav #icon{
+   display: none;
+    color: rgba(197, 194, 194, 0.9);
+    font-size: 30px;
+    line-height: 40px; 
+    float: right;
+    cursor:pointer; 
+    
+}
+
+.banner{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    background: url(banner.jpg);
+    background-size: cover;    
+
+}
+#icon-ban{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50%;
+    padding: 20px;
+    
+    
+}
+
+@media (max-width:1048px) {
+        #header-img{
+            font-size: 30px;
+            padding-left: 60px;
+           
+            
+        }
+        nav ul{
+            margin-right: 20px;
+
+        }
+        nav a{
+            font-size: 17px;
+
+        }
+    }
+@media (max-width:1024px){ 
+nav #icon{
+    display: block;
+
+}
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg,rgba(67, 206, 162,0.7),rgba(24, 90, 157,0.7));
+    top:90px;
+    left:-100%;
+    text-align: center;
+    transition: all .6s;
+}
+nav li{
+    display: block;
+    
+    margin :50px 0;
+    line-height:30px;
+     }
+     nav a{
+         font-size: 20px;
+         font-weight: 800;
+     }
+    a.active,a:hover{
+        color: #000;
+    }
+    nav ul.show{
+        left: 0;
+    }
+}
+
+
+
+
+    
+
+.feature-heading{
+    text-align: center;
+    padding: 40px 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.feature-img1{
+    margin: 10px 20px 20px 20px;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 400px;
+    float: left;
+    
+    
+}
+.feature-img2{
+    margin: 10px 20px 20px 20px;
+     
+     width: 40%;
+     height: auto;
+     border-radius: 10px;
+     max-height: 400px;
+     float: right;
+     
+}
+.feature-img3{
+    margin: 10px 20px 20px 20px;
+     width: 40%;
+     height: auto;
+     border-radius: 10px;
+     max-height: 400px;
+     float: left;
+     
+}
+#para1{
+    line-height: 40px;
+    font-size: large;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+#para2{
+    line-height: 40px;
+    font-size: large;
+    text-align: justify;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    float: left;
+}
+#para3{
+    line-height: 40px;
+    font-size: large;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+}
+.experience{
+    font-family: 'Indie Flower',cursive;
+    width: auto;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+
+}
+.flex{
+    flex:1;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    padding: 30px;
+    font-style: italic;
+    margin: 0 20px 0 20px;
+    border-radius: 20px;
+
+}
+
+
+#flex-img{
+    
+    width:300px;
+    height: auto;
+    max-height: 90vh;
+    transition: transform .2s;
+}
+#flex-img:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+@media (max-width:1184px){
+    #flex-img{
+        width:275px;
+    }
+}
+
+@media (max-width:1120px){
+    .experience{
+        flex-direction: column;
+    }
+
+
+}
+@media (max-width:1080px) {
+    .experience{
+      flex-wrap: wrap;
+    }
+    .flex{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:1024px) {
+    .experience{
+       flex-direction: column;
+       margin:20px 0 20px 0;
+    }
+}
+
+    @media (max-width:980px) {
+    .experience{
+       flex-direction: column;
+       margin:20px 0 20px 0;
+    }
+    
+   }
+@media (max-width:780px) {
+    .experience{
+       flex-direction: column;
+       margin:20px 0 20px 0;
+    }
+    #flex-img{
+        width: 200px;
+        height: auto;
+    }
+    
+}
+
+#packages{
+    color: whitesmoke;
+    font-family: Yomogi;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0;
+    background-color:transparent;
+    justify-content: space-between;
+    
+}
+.pack-flex{
+    flex:1;
+    height:auto;
+    font-family: 'Yomogi',cursive;
+    font-weight: 500;
+    background-image: linear-gradient(to top, #00c3ff
+    0%, #0abfbc 100%);
+    line-height: 25px;
+    padding: 30px;
+    font-style: italic;
+    margin: 10px 20px 10px 20px;
+    border-radius: 20px;    
+
+
+}
+
+
+.pack-btn{
+    position: relative;
+    bottom: 5%;
+    color: white;
+    padding: 15px;
+    background-color: orange;
+    border-style: hidden;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pack-btn:hover{
+    background-color: tomato;
+    
+}
+@media (max-width:1080px) {
+    #packages{
+        flex-direction: column;
+        height: auto;
+    }
+    .pack-flex{
+        line-height: 20px;
+    }
+    
+}
+
+#video{
+    margin-top: 30px;
+   margin-left:15%;
+    
+}
+
+.contact{
+    width: 80%;
+    margin: 50px auto;
+
+
+}
+.contact-box{
+background: transparent;
+display: flex;
+
+margin-top: 20px;
+}
+.contact-left{
+    background-image: linear-gradient(90deg,#085078,#85d8ce );
+    color: whitesmoke;
+    flex-basis:60% ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   padding: 40px 60px;
+
+}
+.c-left{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.c-left.label{
+    flex-basis:45% ;
+
+}
+input{
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.contact-btn{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 90px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(23, 224, 231);
+    cursor: pointer;
+
+
+}
+.contact-btn:hover{
+    transform: scale(0.9);
+    background-color: cadetblue;
+}
+.contact-right{
+    flex-basis:40% ;
+    padding: 40px ;
+
+    background:transparent;
+    color: white;
+
+
+}
+
+
+
+
+tr td:first-child{
+    padding-right: 10px;
+
+}
+tr td{
+    padding-top: 20px;
+}
+
+@media (max-width:768px) {
+    .contact-box{
+        flex-direction: column;
+    }
+    #video{
+        width: 400px;;
+        left:20px;
+        }
+}
+
+@media (max-width:768px){
+    #video{
+        width: 400px;;  
+        left:20px;
+       }
+    }
+ @media (max-width:468px){
+        #video{
+            width: 300px;;  
+            left:20px;
+           }
+        }
+    
+
+@media (max-width:980px) {
+.label{
+    flex-direction: column;
+    margin-right: 10px;
+}
+}
